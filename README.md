@@ -1,0 +1,2 @@
+# CTFd discord auth
+
