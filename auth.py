@@ -23,7 +23,7 @@ def load(app):
     def discordauth():
         error = request.values.get('error')
         if error:
-            return error
+            return "Error occurred"
 
         user = get_current_user()
 
